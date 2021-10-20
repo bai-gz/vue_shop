@@ -24,12 +24,14 @@ import {
   Dialog,
   Select,
   Option,
-  MessageBox
+  Tag,
+  Checkbox,
+  Tree
 // eslint-disable-next-line import/no-duplicates
 } from 'element-ui'
 
 // eslint-disable-next-line import/no-duplicates
-import { Message } from 'element-ui'
+import { Message, MessageBox } from 'element-ui'
 
 Vue.use(Button)
 Vue.use(Form)
@@ -55,5 +57,8 @@ Vue.use(Pagination)
 Vue.use(Dialog)
 Vue.use(Select)
 Vue.use(Option)
+Vue.use(Tag)
+Vue.use(Checkbox)
+Vue.use(Tree)
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
