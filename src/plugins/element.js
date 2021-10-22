@@ -26,7 +26,8 @@ import {
   Option,
   Tag,
   Checkbox,
-  Tree
+  Tree,
+  Cascader
 // eslint-disable-next-line import/no-duplicates
 } from 'element-ui'
 
@@ -60,5 +61,6 @@ Vue.use(Option)
 Vue.use(Tag)
 Vue.use(Checkbox)
 Vue.use(Tree)
+Vue.use(Cascader)
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
